@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Bestill workshop – CRAFTSVILLA</title>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <a class="logo" href="index.html">CRAFTSVILLA</a>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="index.html#about">Om oss</a></li>
+          <li><a href="index.html#workshops">Workshops</a></li>
+          <li><a href="order.html">Bestill</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="order">
+    <div class="content">
+      <h1>Bestill workshop</h1>
+      <form action="#" method="post">
+        <label>Navn
+          <input type="text" name="navn" required>
+        </label>
+        <label>E-post
+          <input type="email" name="epost" required>
+        </label>
+        <label>Workshop
+          <select name="workshop" required>
+            <option value="">Velg workshop</option>
+            <option>Mosaikkunst</option>
+            <option>Akvarellmaling</option>
+            <option>Lerretsmaling</option>
+          </select>
+        </label>
+        <label>Ønsket dato
+          <input type="date" name="dato" required>
+        </label>
+        <label>Antall deltakere
+          <input type="number" name="antall" min="1" value="1" required>
+        </label>
+        <button class="button" type="submit">Send</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="content">
+      <div>
+        <p><strong>CRAFTSVILLA</strong></p>
+        <p>Kunstveien 1, 6003 Ålesund</p>
+        <p><a href="mailto:hei@craftsvilla.no">hei@craftsvilla.no</a> · +47 70 00 00 00</p>
+      </div>
+      <ul class="socials">
+        <li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
+ 
